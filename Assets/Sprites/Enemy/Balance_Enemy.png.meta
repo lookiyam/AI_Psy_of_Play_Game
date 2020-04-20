@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 86399d07bf467a74287a6b8f0ffc2fb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4374258342386670162
+    second: Balance_Enemy_0
+  - first:
+      213: -7832392631101973025
+    second: Balance_Enemy_1
+  - first:
+      213: 5803668756365570038
+    second: Balance_Enemy_2
+  - first:
+      213: 221638600024726635
+    second: Balance_Enemy_3
+  - first:
+      213: 1988719321049651627
+    second: Balance_Enemy_4
+  - first:
+      213: -8389529059672575832
+    second: Balance_Enemy_5
+  - first:
+      213: -101094004470526463
+    second: Balance_Enemy_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Balance_Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 109
+        width: 159
+        height: 194
+      alignment: 9
+      pivot: {x: 0.4803606, y: 0.0546652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a1fbd59cc74bc30800000000000000
+      internalID: 4374258342386670162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balance_Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 176
+        width: 69
+        height: 75
+      alignment: 9
+      pivot: {x: 0.35414025, y: 0.39499044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd97c95660cd4390800000000000000
+      internalID: -7832392631101973025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balance_Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 356
+        width: 30
+        height: 84
+      alignment: 9
+      pivot: {x: 0.6579987, y: 0.8761862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffe3391cf5ca8050800000000000000
+      internalID: 5803668756365570038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balance_Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 362
+        width: 27
+        height: 81
+      alignment: 9
+      pivot: {x: 0.33834273, y: 0.928246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c1df6e12b631300800000000000000
+      internalID: 221638600024726635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balance_Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 123
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9de119fa9599b10800000000000000
+      internalID: 1988719321049651627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balance_Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.59440154, y: 0.929131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0366515c7629b80800000000000000
+      internalID: -8389529059672575832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balance_Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.377895, y: 0.9205845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ecc9ed987d89ef0800000000000000
+      internalID: -101094004470526463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
