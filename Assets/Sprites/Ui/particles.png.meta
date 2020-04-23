@@ -17,9 +17,6 @@ TextureImporter:
   - first:
       213: -2924870240721974060
     second: particles_4
-  - first:
-      213: 4816342424261837737
-    second: particles_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,6 +98,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -109,9 +118,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 97
-        y: 520
-        width: 403
-        height: 398
+        y: 517
+        width: 383
+        height: 401
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +138,10 @@ TextureImporter:
       name: particles_1
       rect:
         serializedVersion: 2
-        x: 624
-        y: 575
-        width: 263
-        height: 310
+        x: 623
+        y: 576
+        width: 272
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,9 +159,9 @@ TextureImporter:
       name: particles_2
       rect:
         serializedVersion: 2
-        x: 659
-        y: 190
-        width: 211
+        x: 644
+        y: 187
+        width: 245
         height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,9 +180,9 @@ TextureImporter:
       name: particles_3
       rect:
         serializedVersion: 2
-        x: 381
-        y: 190
-        width: 198
+        x: 366
+        y: 193
+        width: 245
         height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,10 +201,10 @@ TextureImporter:
       name: particles_4
       rect:
         serializedVersion: 2
-        x: 147
-        y: 211
+        x: 148
+        y: 200
         width: 137
-        height: 122
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
