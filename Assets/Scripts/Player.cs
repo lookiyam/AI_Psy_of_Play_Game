@@ -12,6 +12,8 @@ private Animator anim;
 
 private Vector2 moveAmount;
 
+public float health;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -36,5 +38,14 @@ private Vector2 moveAmount;
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
+    }
+
+        public void TakeDamage(int amount) 
+    {
+        health -= amount;
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

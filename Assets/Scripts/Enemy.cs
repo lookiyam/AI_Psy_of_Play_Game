@@ -5,19 +5,28 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int health;
-    public void TakeDamage(int damageAmount) 
+    
+    [HideInInspector]
+    public Transform player;
+    public float speed;
+    public float timeBetweenAttacks;
+    public int damage;
+
+        // Start is called before the first frame update
+    private void Start()
     {
-        health -= damageAmount;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+    public void TakeDamage(int amount) 
+    {
+        health -= amount;
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()

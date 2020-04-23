@@ -328,7 +328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138292999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.488, y: -1.051, z: 0}
+  m_LocalPosition: {x: 0.488, y: -1.051, z: 1}
   m_LocalScale: {x: 2.7628837, y: 2.8117843, z: 2.3286}
   m_Children: []
   m_Father: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 642601327}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -617,6 +617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+  health: 5
 --- !u!61 &642601327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1260,6 +1261,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3495211815064352287}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1152702611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152702610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0ebca8c39dcd94cba559e082d4a30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  player: {fileID: 0}
+  speed: 10
+  timeBetweenAttacks: 3
+  damage: 1
+  stopDistance: 5
+  attackSpeed: 8
 --- !u!50 &1152702613
 Rigidbody2D:
   serializedVersion: 4
@@ -1307,19 +1327,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6896257, y: 3.5688539}
   m_EdgeRadius: 0
---- !u!114 &1152702615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152702610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41caa64ab2eba7e409dbd7399129082a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 3
 --- !u!1 &1200972958
 GameObject:
   m_ObjectHideFlags: 0
