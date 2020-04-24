@@ -20,11 +20,20 @@ void Start ()
 
 void Update()
     {
-        //checking the distance between the player and the AI if the disatnce greater then number the AI can keep moving near the player
-        if(Vector2.Distance(transform.position, target.position) > stoppingDistance)
-        {
-            //move the AI to the target postion (the player) at a certain speed
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        }
+        //checking if the target which is the player is alive
+        if (target != null)
+            {
+               //checking the distance between the player and the AI if the disatnce greater then number the AI can keep moving near the player
+            if(Vector2.Distance(transform.position, target.position) > stoppingDistance)
+            {
+                //move the AI to the target postion (the player) at a certain speed
+                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            }
+            }
+            else
+            {
+                //if death destory the AI
+                Destroy(this.gameObject);
+            }
     }
 }

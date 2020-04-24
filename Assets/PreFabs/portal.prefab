@@ -121,10 +121,10 @@ MonoBehaviour:
   speed: 20
   timeBetweenAttacks: 2
   damage: 1
-  minX: -9.9
-  maxX: 10.8
-  minY: -7.1
-  maxY: 4.7
+  minX: -28
+  maxX: 29.5
+  minY: -17.9
+  maxY: 15.3
   timeBetweenSummons: 5
   enemyToSummon: {fileID: 2961558353583554100, guid: 3deaac6fa95d8a7428a292c7d8d86dd5,
     type: 3}
