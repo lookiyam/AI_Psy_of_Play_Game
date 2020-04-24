@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     public float timeBetweenAttacks;
     public int damage;
 
-        // Start is called before the first frame update
+    //virtual so it will be the start for all other scripts 
     public virtual void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
