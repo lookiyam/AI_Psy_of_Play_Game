@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,12 +8,12 @@ public class Player : MonoBehaviour
 public float speed;
 
 private Rigidbody2D rb;
-
-private Animator anim;
-
 private Vector2 moveAmount;
-
-public float health;
+private Animator anim;
+public int health;
+public Image[] hearts;
+public Sprite fullHeart;
+public Sprite emptyHeart;
 
     private void Start()
     {
@@ -40,17 +41,35 @@ public float health;
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
     }
 
-        public void TakeDamage(int amount) 
+    public void TakeDamage(int amount) 
     {
         health -= amount;
+        UpdateHealthUI(health);
         if (health <= 0)
         {
             Destroy(this.gameObject);
         }
     }
-        public void ChangeWeapon(Weapon weaponToEquip) 
-        {
+    public void ChangeWeapon(Weapon weaponToEquip) 
+    {
         Destroy(GameObject.FindGameObjectWithTag("Weapon"));
         Instantiate(weaponToEquip, transform.position, transform.rotation, transform);
     }
+    void UpdateHealthUI(int currentHealth) 
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+
+            if (i < currentHealth)
+            {
+                hearts[i].sprite = fullHeart;
+            } 
+            else 
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+
+        }
+    }
+
 }
