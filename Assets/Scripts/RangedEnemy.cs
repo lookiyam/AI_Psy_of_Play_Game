@@ -28,7 +28,7 @@ public class RangedEnemy : Enemy
             if (Time.time >= attackTime)
             {
                 attackTime = Time.time + timeBetweenAttacks;
-                anim.SetTrigger("attack");
+                anim.SetTrigger("Attack");
             }
         }
     }
