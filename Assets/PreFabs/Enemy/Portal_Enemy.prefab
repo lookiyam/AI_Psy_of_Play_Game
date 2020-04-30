@@ -290,6 +290,8 @@ MonoBehaviour:
   - {fileID: 6785928721526546687, guid: abf4c34bf5ea6a1458f97347b431d9ff, type: 3}
   - {fileID: 5894195542170254905, guid: f8cb427278db5b148b0e3cff8475db32, type: 3}
   - {fileID: 1057807798362441575, guid: d87955367255a0c4e8e43d18d3740722, type: 3}
+  - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
+  - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
   stopDistance: 2
   attackSpeed: 5
 --- !u!1 &4039029076373924573

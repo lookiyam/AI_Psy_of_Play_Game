@@ -71,5 +71,17 @@ public Sprite emptyHeart;
 
         }
     }
+        public void Heal(int healAmount) 
+        {
+        if (health + healAmount > 5)
+        {
+            health = 5;
+        } else 
+        {
+            health += healAmount;
+        }
+        UpdateHealthUI(health);
+    }
+
 
 }
