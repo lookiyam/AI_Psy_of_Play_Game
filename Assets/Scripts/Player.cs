@@ -48,4 +48,9 @@ public float health;
             Destroy(this.gameObject);
         }
     }
+        public void ChangeWeapon(Weapon weaponToEquip) 
+        {
+        Destroy(GameObject.FindGameObjectWithTag("Weapon"));
+        Instantiate(weaponToEquip, transform.position, transform.rotation, transform);
+    }
 }

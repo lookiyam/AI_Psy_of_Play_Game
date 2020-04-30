@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8373956280626693861}
   m_Layer: 0
   m_Name: Handle
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503847701119302422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8127992, y: -1.23, z: 0}
+  m_LocalPosition: {x: -3.89, y: -1.23, z: 0}
   m_LocalScale: {x: 0.6018885, y: 0.5593637, z: 0.5233813}
   m_Children:
   - {fileID: 6566586278839395679}
@@ -177,7 +177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5354232687654023441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00299346, y: 5.659628, z: 0}
+  m_LocalPosition: {x: 0.08, y: 5.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6640386934330311551}
