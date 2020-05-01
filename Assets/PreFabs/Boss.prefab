@@ -10,9 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002551209606625}
   - component: {fileID: 1974002551209606558}
-  m_Layer: 0
+  - component: {fileID: -90678348946614317}
+  - component: {fileID: -2197830902898512947}
+  - component: {fileID: 3221531492372637788}
+  m_Layer: 13
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974002551209606559}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.32, y: -0.3064065, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -52,6 +55,73 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-90678348946614317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974002551209606559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fe9ca226a2f8d41a72541750ea907a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  enemies:
+  - {fileID: 7643641562460203185, guid: 47133e37413a35f45afa6594d989aa28, type: 3}
+  - {fileID: 4039029076055208267, guid: 3deaac6fa95d8a7428a292c7d8d86dd5, type: 3}
+  - {fileID: 589244539094429233, guid: ed6e2b10f84fb1e4e8e415b0da861573, type: 3}
+  - {fileID: 6464173443712218956, guid: c6f2f8e58b23e5f4cb97c18cd7b43d62, type: 3}
+  spawnOffset: 20
+  damage: 1
+--- !u!61 &-2197830902898512947
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974002551209606559}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.42861176, y: -0.10459232}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.225037, y: 12.625311}
+  m_EdgeRadius: 0
+--- !u!50 &3221531492372637788
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974002551209606559}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1974002551279226466
 GameObject:
   m_ObjectHideFlags: 0
@@ -62,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002551279226469}
   - component: {fileID: 1974002551279226468}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Righthand_boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002551481500500}
   - component: {fileID: 1974002551481500503}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Head_Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002551675743615}
   - component: {fileID: 1974002551675743614}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: player shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002552122968477}
   - component: {fileID: 1974002552122968476}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Mouth_Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002552464139261}
   - component: {fileID: 1974002552464139258}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body_Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974002552821416733}
   - component: {fileID: 1974002552821416732}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Lefthand_boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}

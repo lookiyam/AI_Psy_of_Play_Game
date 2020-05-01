@@ -9,6 +9,7 @@ TagManager:
   - Environment
   - Weapon
   - patrolPoints
+  - boss
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Stopper
   - AI
   - Environment
-  - 
+  - boss
   - 
   - 
   - 
