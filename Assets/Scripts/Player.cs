@@ -15,6 +15,8 @@ public Image[] hearts;
 public Sprite fullHeart;
 public Sprite emptyHeart;
 
+public Animator hurtAnim;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -45,6 +47,7 @@ public Sprite emptyHeart;
     {
         health -= amount;
         UpdateHealthUI(health);
+        hurtAnim.SetTrigger("hurt");
         if (health <= 0)
         {
             Destroy(this.gameObject);
