@@ -32,6 +32,7 @@ public class WaveSpawner : MonoBehaviour
 
     // where the boss should spawn
     public Transform bossSpawnPoint;
+
     private void Start() 
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;

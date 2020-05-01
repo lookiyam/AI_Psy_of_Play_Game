@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Boss : MonoBehaviour
 {
     // represent the boss HP
@@ -30,6 +31,7 @@ public class Boss : MonoBehaviour
         // declare the variable that notice when the boss has half helath, while recalling the animator component
         halfHealth = health / 2;
         anim = GetComponent<Animator>();
+
     }
     
     // function that allows the boss recognise when he is hitted by the bullet
