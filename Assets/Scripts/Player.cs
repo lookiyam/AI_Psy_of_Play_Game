@@ -16,11 +16,13 @@ public Sprite fullHeart;
 public Sprite emptyHeart;
 
 public Animator hurtAnim;
+private SceneTransition sceneTransition;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        sceneTransition = FindObjectOfType<SceneTransition>();
     }
 
     private void Update()
@@ -51,6 +53,7 @@ public Animator hurtAnim;
         if (health <= 0)
         {
             Destroy(this.gameObject);
+            sceneTransition.LoadScene("Lose");
         }
     }
     public void ChangeWeapon(Weapon weaponToEquip) 

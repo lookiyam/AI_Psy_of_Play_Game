@@ -26,11 +26,14 @@ public class Boss : MonoBehaviour
 
     public GameObject effect;
 
+    private SceneTransition sceneTransition;
+
     private void Start() 
     {
         // declare the variable that notice when the boss has half helath, while recalling the animator component
         halfHealth = health / 2;
         anim = GetComponent<Animator>();
+        sceneTransition = FindObjectOfType<SceneTransition>();
 
     }
     
@@ -42,6 +45,7 @@ public class Boss : MonoBehaviour
         {
             Instantiate (effect, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
+            sceneTransition.LoadScene("Win");
         }
 
         // if the boss has less or equal to half health
