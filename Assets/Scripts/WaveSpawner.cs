@@ -27,7 +27,7 @@ public class WaveSpawner : MonoBehaviour
     private Transform player;
     //to tell when the wave have fineshed spawning
     private bool finishedSpawning;
-    // implement boss into erray
+    // implement boss into arrey
     public GameObject boss;
 
     // where the boss should spawn
