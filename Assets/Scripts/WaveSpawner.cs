@@ -27,6 +27,11 @@ public class WaveSpawner : MonoBehaviour
     private Transform player;
     //to tell when the wave have fineshed spawning
     private bool finishedSpawning;
+    // implement boss into erray
+    public GameObject boss;
+
+    // where the boss should spawn
+    public Transform bossSpawnPoint;
     private void Start() 
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -105,7 +110,8 @@ public class WaveSpawner : MonoBehaviour
         else
             {
              //there is no move waves
-                Debug.Log("Winner");
+            // instantiate the  boss at the end of the waves
+            Instantiate (boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
             }
         }    
     }

@@ -8,6 +8,7 @@ TagManager:
   - AI
   - Environment
   - Weapon
+  - patrolPoints
   layers:
   - Default
   - TransparentFX
