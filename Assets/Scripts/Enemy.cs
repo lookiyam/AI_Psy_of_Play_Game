@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
                 Instantiate(randomPickup, transform.position, transform.rotation);
             }
 
-            Instantiate(deathEffect, transform.position, transform.rotation);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }

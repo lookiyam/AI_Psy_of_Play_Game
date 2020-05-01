@@ -127,3 +127,5 @@ MonoBehaviour:
   explosion: {fileID: 3171201644961380275, guid: ab59967d6916f4842b64a7df3754ea2a,
     type: 3}
   damage: 1
+  soundObject: {fileID: 4252408869178827020, guid: 56f3eac11ca578947b052df9bd9870f4,
+    type: 3}
