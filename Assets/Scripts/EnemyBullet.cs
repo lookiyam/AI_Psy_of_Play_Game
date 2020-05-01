@@ -14,6 +14,8 @@ public class EnemyBullet : MonoBehaviour
     // bullet damage useful to detect collision and calculate damage
     public int damage;
 
+    public GameObject effect;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -31,10 +33,12 @@ public class EnemyBullet : MonoBehaviour
         // after destroy the game object
         if (Vector2.Distance(transform.position, targetPosition) > .1f)
         {
+            
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         }
         else
         {
+            Instantiate (effect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1038274206080493585}
   - component: {fileID: 8959209104621911603}
   m_Layer: 8
-  m_Name: Pickup2
+  m_Name: Pickup1
   m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponToEquip: {fileID: 7979471350826853927, guid: 67618e6081e3fa84e92f420d1b9707b1,
     type: 3}
+  effect: {fileID: 1761433749851248, guid: 23c3d9b3332bc374583bd2af9b8f41ce, type: 3}
 --- !u!61 &1038274206080493585
 BoxCollider2D:
   m_ObjectHideFlags: 0

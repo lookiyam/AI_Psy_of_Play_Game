@@ -23,6 +23,8 @@ public class Boss : MonoBehaviour
     // variable that will calculate the damage that the boss deal
     public int damage;
 
+    public GameObject effect;
+
     private void Start() 
     {
         // declare the variable that notice when the boss has half helath, while recalling the animator component
@@ -36,6 +38,7 @@ public class Boss : MonoBehaviour
         health -= amount;
         if (health <= 0)
         {
+            Instantiate (effect, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
 

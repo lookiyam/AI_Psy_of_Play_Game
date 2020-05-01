@@ -18,6 +18,8 @@ public class Enemy : MonoBehaviour
     public int pickupChance;
     public GameObject[] pickups;
 
+    public GameObject deathEffect;
+
     //virtual so it will be the start for all other scripts 
     public virtual void Start()
     {
@@ -43,6 +45,7 @@ public class Enemy : MonoBehaviour
                 Instantiate(randomPickup, transform.position, transform.rotation);
             }
 
+            Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(this.gameObject);
         }
     }

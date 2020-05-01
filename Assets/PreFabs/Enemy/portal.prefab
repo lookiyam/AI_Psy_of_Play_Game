@@ -124,6 +124,8 @@ MonoBehaviour:
   pickupChance: 15
   pickups:
   - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
+  deathEffect: {fileID: 1354371608571034, guid: 8ba437ad6ac1ade49ad8a6200daeb854,
+    type: 3}
   minX: -28
   maxX: 29.5
   minY: -17.9

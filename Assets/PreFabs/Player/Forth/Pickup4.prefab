@@ -127,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponToEquip: {fileID: 3452105952944448943, guid: 4777b18012392be4eb22fb34c991db10,
     type: 3}
+  effect: {fileID: 1761433749851248, guid: 23c3d9b3332bc374583bd2af9b8f41ce, type: 3}
 --- !u!95 &913551759684528353
 Animator:
   serializedVersion: 3
