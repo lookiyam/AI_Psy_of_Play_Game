@@ -500,7 +500,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.068962574, y: -0.3361919}
+  m_Offset: {x: 0.0063946843, y: -0.36633468}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -511,7 +511,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6896257, y: 3.5688539}
+  m_Size: {x: 1.6293405, y: 3.6291394}
   m_EdgeRadius: 0
 --- !u!114 &7643641562460203185
 MonoBehaviour:
@@ -530,7 +530,7 @@ MonoBehaviour:
   speed: 10
   timeBetweenAttacks: 3
   damage: 1
-  pickupChance: 25
+  pickupChance: 10
   pickups:
   - {fileID: 616279623317446678, guid: 44a510cd4e6cb0a4a8c3d36971d0b16d, type: 3}
   - {fileID: 6785928721526546687, guid: abf4c34bf5ea6a1458f97347b431d9ff, type: 3}
@@ -538,10 +538,14 @@ MonoBehaviour:
   - {fileID: 1057807798362441575, guid: d87955367255a0c4e8e43d18d3740722, type: 3}
   - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
   - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
+  - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
+  - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
+  - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
+  - {fileID: 987171321069580075, guid: cbd7db0f1b196f34784c741e3baf45bb, type: 3}
   deathEffect: {fileID: 1354371608571034, guid: 8ba437ad6ac1ade49ad8a6200daeb854,
     type: 3}
-  stopDistance: 5
-  attackSpeed: 8
+  stopDistance: 1.5
+  attackSpeed: 7
 --- !u!1 &7643641562822091106
 GameObject:
   m_ObjectHideFlags: 0

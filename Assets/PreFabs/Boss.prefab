@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1974002551209606559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.32, y: -0.3064065, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5821646, y: 0.5821646, z: 0.5821646}
   m_Children:
   - {fileID: 1974002552464139261}
   - {fileID: 1974002551675743615}
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fe9ca226a2f8d41a72541750ea907a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
   enemies:
   - {fileID: 7643641562460203185, guid: 47133e37413a35f45afa6594d989aa28, type: 3}
   - {fileID: 4039029076055208267, guid: 3deaac6fa95d8a7428a292c7d8d86dd5, type: 3}
@@ -91,7 +91,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.42861176, y: -0.10459232}
+  m_Offset: {x: -0.11118126, y: -0.13345146}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -102,7 +102,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.225037, y: 12.625311}
+  m_Size: {x: 7.5901747, y: 9.220146}
   m_EdgeRadius: 0
 --- !u!50 &3221531492372637788
 Rigidbody2D:

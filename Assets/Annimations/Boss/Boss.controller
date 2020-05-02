@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolPoints: []
-  speed: 30
+  speed: 10
 --- !u!114 &-8845390142742754000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26,7 +26,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ab3fed494784b49aa2dbb24228e193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
 --- !u!1102 &-7747309416573713878
 AnimatorState:
   serializedVersion: 5
@@ -215,7 +215,7 @@ AnimatorStateMachine:
     m_Position: {x: 270, y: 100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5715514450104387050}
-    m_Position: {x: 310, y: 180, z: 0}
+    m_Position: {x: 310, y: 170, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
