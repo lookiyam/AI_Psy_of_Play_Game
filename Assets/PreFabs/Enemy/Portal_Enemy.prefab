@@ -279,10 +279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0ebca8c39dcd94cba559e082d4a30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 4
   player: {fileID: 0}
   speed: 2
-  timeBetweenAttacks: 6
+  timeBetweenAttacks: 3
   damage: 2
   pickupChance: 0
   pickups:

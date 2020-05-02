@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b0ebca8c39dcd94cba559e082d4a30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 3
   player: {fileID: 0}
   speed: 10
   timeBetweenAttacks: 3
@@ -545,7 +545,7 @@ MonoBehaviour:
   deathEffect: {fileID: 1354371608571034, guid: 8ba437ad6ac1ade49ad8a6200daeb854,
     type: 3}
   stopDistance: 1.5
-  attackSpeed: 7
+  attackSpeed: 5
 --- !u!1 &7643641562822091106
 GameObject:
   m_ObjectHideFlags: 0

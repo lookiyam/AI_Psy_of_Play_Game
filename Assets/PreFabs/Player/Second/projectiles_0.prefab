@@ -126,6 +126,6 @@ MonoBehaviour:
   lifeTime: 2
   explosion: {fileID: 3171201644961380275, guid: ab59967d6916f4842b64a7df3754ea2a,
     type: 3}
-  damage: 3
+  damage: 2
   soundObject: {fileID: 3834537563178537518, guid: cfe18cc364c02ca4e8d670bc9de5a570,
     type: 3}
