@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 97554477}
   m_Layer: 8
   m_Name: Right_Hand
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1431,7 +1431,7 @@ GameObject:
   - component: {fileID: 530078170}
   m_Layer: 8
   m_Name: Left_Hand
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1710,7 +1710,7 @@ GameObject:
   - component: {fileID: 579210519}
   m_Layer: 8
   m_Name: player shadow
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2111,7 +2111,7 @@ GameObject:
   - component: {fileID: 798939223}
   m_Layer: 8
   m_Name: Left_Feet
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 822297156}
   m_Layer: 8
   m_Name: Cape
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3318,7 +3318,7 @@ GameObject:
   - component: {fileID: 1050749792}
   m_Layer: 8
   m_Name: Body
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3554,7 +3554,7 @@ GameObject:
   - component: {fileID: 1104241037}
   m_Layer: 8
   m_Name: Eyebrows
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3666,7 +3666,7 @@ GameObject:
   - component: {fileID: 1148947561}
   m_Layer: 8
   m_Name: Eye
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3924,7 +3924,7 @@ GameObject:
   - component: {fileID: 1200972960}
   m_Layer: 8
   m_Name: Head
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4925,7 +4925,7 @@ GameObject:
   - component: {fileID: 1793290018}
   m_Layer: 8
   m_Name: Right_feet
-  m_TagString: MyPlayer
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
