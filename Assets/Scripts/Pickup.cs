@@ -11,7 +11,7 @@ public class Pickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "MyPlayer")
         {
             Instantiate (effect, transform.position, Quaternion.identity);
             collision.GetComponent<Player>().ChangeWeapon(weaponToEquip);

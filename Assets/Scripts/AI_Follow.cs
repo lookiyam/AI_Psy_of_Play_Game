@@ -15,7 +15,7 @@ private Transform target;
 void Start () 
     {
         //find the game object that has the player tag 
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        target = GameObject.FindGameObjectWithTag("MyPlayer").GetComponent<Transform>();
     }
 
 void Update()

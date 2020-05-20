@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     {
         // find the game object with the player tag, and get a transform component in the player object
         // so that the player will be = to the tag of player
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("MyPlayer").transform;
     }
 
     // this calculate the damege taken by the enemy

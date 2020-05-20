@@ -66,7 +66,7 @@ public class Boss : MonoBehaviour
     {
         // if the collision object has the tag of player
         // call the player component and deal damage
-        if (collision.tag == "Player")
+        if (collision.tag == "MyPlayer")
         {
             collision.GetComponent<Player>().TakeDamage(damage);
         }

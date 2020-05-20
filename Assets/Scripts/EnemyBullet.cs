@@ -21,7 +21,7 @@ public class EnemyBullet : MonoBehaviour
     {
         // detect the player and fetch the player script on that object
         // set position fololowing the player script position
-        playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        playerScript = GameObject.FindGameObjectWithTag("MyPlayer").GetComponent<Player>();
         targetPosition = playerScript.transform.position;
     }
 
@@ -47,7 +47,7 @@ public class EnemyBullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag =="Player")
+        if (collision.tag =="MyPlayer")
         {
             playerScript.TakeDamage(damage);
             Destroy(gameObject);

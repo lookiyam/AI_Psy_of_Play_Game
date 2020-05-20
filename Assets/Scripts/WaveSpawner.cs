@@ -35,7 +35,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void Start() 
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("MyPlayer").transform;
         //to tell to start next wave
         StartCoroutine(StartNextWave(currentWaveIndex));
         

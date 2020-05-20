@@ -23,4 +23,12 @@ public class SceneTransition : MonoBehaviour
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(sceneName);
     }
+
+    public void ExitThisGame()
+    {
+        UnityEngine.Debug.LogError("Exit");
+        Application.Quit();
+    }   
 }
+
+

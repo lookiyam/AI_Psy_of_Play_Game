@@ -11,12 +11,12 @@ public class HealthPickup : MonoBehaviour
 
     private void Start()
     {
-        playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        playerScript = GameObject.FindGameObjectWithTag("MyPlayer").GetComponent<Player>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "MyPlayer")
         {
             Instantiate (effect, transform.position, Quaternion.identity);
             playerScript.Heal(healAmount);
