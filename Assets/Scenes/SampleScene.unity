@@ -2425,30 +2425,30 @@ MonoBehaviour:
   - enemies:
     - {fileID: 7643641562460203185, guid: 47133e37413a35f45afa6594d989aa28, type: 3}
     count: 10
-    timeBetweenSpawns: 1
+    timeBetweenSpawns: 2
   - enemies:
     - {fileID: 589244539094429233, guid: ed6e2b10f84fb1e4e8e415b0da861573, type: 3}
     count: 5
-    timeBetweenSpawns: 1.5
+    timeBetweenSpawns: 2
   - enemies:
     - {fileID: 7643641562460203185, guid: 47133e37413a35f45afa6594d989aa28, type: 3}
     - {fileID: 589244539094429233, guid: ed6e2b10f84fb1e4e8e415b0da861573, type: 3}
-    count: 10
-    timeBetweenSpawns: 1.25
-  - enemies:
-    - {fileID: 6464173443712218956, guid: c6f2f8e58b23e5f4cb97c18cd7b43d62, type: 3}
-    count: 7
+    count: 8
     timeBetweenSpawns: 1.5
   - enemies:
+    - {fileID: 6464173443712218956, guid: c6f2f8e58b23e5f4cb97c18cd7b43d62, type: 3}
+    count: 5
+    timeBetweenSpawns: 2
+  - enemies:
     - {fileID: 589244539094429233, guid: ed6e2b10f84fb1e4e8e415b0da861573, type: 3}
-    count: 10
-    timeBetweenSpawns: 1
+    count: 8
+    timeBetweenSpawns: 3
   - enemies:
     - {fileID: 7643641562460203185, guid: 47133e37413a35f45afa6594d989aa28, type: 3}
     - {fileID: 6464173443712218956, guid: c6f2f8e58b23e5f4cb97c18cd7b43d62, type: 3}
     - {fileID: 589244539094429233, guid: ed6e2b10f84fb1e4e8e415b0da861573, type: 3}
-    count: 12
-    timeBetweenSpawns: 1
+    count: 10
+    timeBetweenSpawns: 2
   spawnPoints:
   - {fileID: 110928673}
   - {fileID: 1311366715}
