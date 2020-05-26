@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fe9ca226a2f8d41a72541750ea907a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 40
+  health: 50
   enemies:
   - {fileID: 7643641562460203185, guid: 47133e37413a35f45afa6594d989aa28, type: 3}
   - {fileID: 4039029076055208267, guid: 3deaac6fa95d8a7428a292c7d8d86dd5, type: 3}
